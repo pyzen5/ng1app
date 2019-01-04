@@ -1,1 +1,1 @@
-angular.bootstrap("mainApp",["ui.router"]);
+angular.module('mainApp',['ui.router']);
