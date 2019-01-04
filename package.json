@@ -9,9 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server -a localhost -p 8000 -c-1 ./src",
-    "build":"build",
-    "copy:files":"cp -r src/* dist",
-    "copy":"npm run copy:files"
+    "build": "build",
+    "copy:files": "cp -r src/* dist",
+    "copy": "npm run copy:files"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pyzen5/ng1app/issues"
   },
-  "homepage": "https://github.com/pyzen5/ng1app#readme"
+  "homepage": "https://github.com/pyzen5/ng1app#readme",
+  "dependencies": {
+    "cpx": "^1.5.0"
+  }
 }
